@@ -1,3 +1,8 @@
+body {
+  background-color: #2f90bd;
+  font-family: 'Roboto', sans-serif;
+}
+
 input[type=text], select {
     padding: 12px 20px;
     margin: 8px 0;
@@ -9,7 +14,7 @@ input[type=text], select {
   
   button {
     background-color: #172875;
-    color: white;
+    color: #ffffff;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -18,16 +23,14 @@ input[type=text], select {
   }
   
   button:hover {
-    background-color: #f50303;
+    background-color:#2650aa; 
     transition: 0.2s;
   }
   
   div {
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
   }
 
   input, button {
-    font-family: 'Oxanium', cursive;
+    font-family: 'Roboto', sans-serif;
   }
